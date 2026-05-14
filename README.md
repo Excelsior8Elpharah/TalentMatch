@@ -1,11 +1,30 @@
-<div align="center">
+# TalentMatch RH - AI Recruitment Ecosystem
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+## 🚀 Visão Geral
+O **TalentMatch RH** é uma plataforma moderna de recrutamento e seleção (ATS/CRM) projetada para atuar como uma **camada de inteligência evolutiva** sobre sistemas legados. Ao invés de substituir o core business existente, o TalentMatch estende suas capacidades com IA, UX moderna e governança estratégica.
 
-  <h1>Built with AI Studio</h2>
+## 🏗️ Arquitetura do Sistema
+A aplicação segue uma arquitetura de **Camada de Adaptação (Adapter Layer)**:
+1.  **Frontend (React/Vite):** Interface de alta fidelidade focada em produtividade.
+2.  **Service Layer (AI Bridge):** Integração com o Google Gemini API para processamento semântico.
+3.  **Legacy Bridge:** Gateway que simula (neste protótipo) a sincronização de dados com sistemas corporativos legados (Mainframe/Oracle).
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 📊 Estrutura de Dados (Entidades)
+-   **Candidates:** Perfil rico incluindo skills extraídas por IA.
+-   **Jobs:** Vagas com requisitos técnicos e comportamentais detalhados.
+-   **Matches:** Resultados de compatibilidade gerados pelo motor de IA.
+-   **Resumes:** Central de documentos com status de processamento.
+-   **Project Governance:** Módulos de Stakeholders, KPIs, Riscos e Roadmap para gestão do produto.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## 🤖 Mecanismo de Matching IA
+O matching não é apenas uma busca por palavras-chave. Ele utiliza o modelo **Gemini 1.5 Flash** para:
+1.  **Análise Semântica:** Entender o contexto das experiências do candidato.
+2.  **Gap Analysis:** Identificar exatamente o que falta para o fit perfeito.
+3.  **Recomendação Explicável:** Gerar justificativas em linguagem natural para cada score.
 
-</div>
+## 🛠️ Evolução do Legado
+A solução resolve as principais dores do sistema antigo:
+-   **Performance:** Interface reativa que não trava em grandes volumes de dados.
+-   **Inteligência:** O legado apenas armazena, o TalentMatch analisa.
+-   **UX:** Design intuitivo que reduz o tempo de treinamento de novos recrutadores.
+-   **Decisão Executiva:** Dashboards em tempo real para C-Levels que antes dependiam de relatórios manuais.

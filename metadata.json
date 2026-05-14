@@ -1,0 +1,10 @@
+{
+  "name": "001 TalentMatch RH - AI Recruitment Platform",
+  "description": "Sistema moderno de recrutamento (ATS/CRM) com motor de Matching por IA (Gemini), dashboards executivos de governança e integração estratégica com sistemas legados.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "AI Matching",
+    "Candidate Management",
+    "Strategic Dashboards"
+  ]
+}
